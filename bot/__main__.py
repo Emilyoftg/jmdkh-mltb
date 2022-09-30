@@ -126,7 +126,10 @@ def main():
         (f'{BotCommands.CancelMirror}','Cancel a Task'),
         (f'{BotCommands.CancelAllCommand}','Cancel all tasks which added by you'),
         (f'{BotCommands.StatsCommand}','Bot Usage Stats'),
-        (f'{BotCommands.SearchCommand}','For Torrents With Installed (Qbittorrent) Search Plugins')
+        (f'{BotCommands.SearchCommand}','For Torrents With Installed (Qbittorrent) Search Plugins'),
+        (f'{BotCommands.LeechSetCommand}','Leech settings'),
+        (f'{BotCommands.SetThumbCommand}','Reply photo to set it as Thumbnail'),
+        (f'{BotCommands.RestartCommand}','Restart and update the bot Only Owner & Sudo')
         ])
     start_cleanup()
     if INCOMPLETE_TASK_NOTIFIER and DB_URI is not None:
